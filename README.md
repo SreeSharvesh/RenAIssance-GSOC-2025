@@ -88,7 +88,7 @@ TrOCR is a transformer-based OCR model that eliminates the need for traditional 
 - **Definition**: The ratio of character-level errors (insertions, deletions, substitutions) to the total number of characters in the ground truth.
 - **Formula**:
   
-  \[ CER = \frac{S + D + I}{N} \]
+  CER = (S + D + I) / N
   
   where:
   - S = Substitutions
@@ -100,8 +100,7 @@ TrOCR is a transformer-based OCR model that eliminates the need for traditional 
 ### Word Error Rate (WER)
 - **Definition**: The ratio of word-level errors (insertions, deletions, substitutions) to the total number of words in the ground truth.
 - **Formula**:
-  
-  \[ WER = \frac{S_w + D_w + I_w}{N_w} \]
+  WER = (S_w + D_w + I_w) / N_w
   
   where:
   - S_w, D_w, I_w = Word-level errors
