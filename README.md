@@ -121,6 +121,3 @@ TrOCR is a transformer-based OCR model that eliminates the need for traditional 
 | 80 |  0.054900 |	0.072586 |	0.010661 |	0.026820 |
 
 
-### Comments on Specific Task 3:
-I tried Speific task 3. I designed a simple GAN based generative model to generate Synthetic renaissance text
-
