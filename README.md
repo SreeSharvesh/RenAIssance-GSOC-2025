@@ -109,3 +109,13 @@ TrOCR is a transformer-based OCR model that eliminates the need for traditional 
 
 ### Average CER/WER
 - Computed across all predictions to provide a summary of model performance.
+
+
+### Training Performance Table
+
+| Epoch | Training Loss | CER  | WER  |
+|-------|--------------|------|------|
+| 20 |	0.056600 |	0.060328 |	0.006397 |	0.021073 |
+| 40 |	0.051600 |	0.064336 |	0.008884 |	0.030651 |
+| 60 |	0.048300 |	0.051742 |	0.010661 |	0.022989 |
+| 80 |  0.054900 |	0.072586 |	0.010661 |	0.026820 |
