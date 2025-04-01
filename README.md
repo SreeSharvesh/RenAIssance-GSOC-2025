@@ -1,7 +1,7 @@
 # Optical Character Recognition (OCR) with TrOCR
 
 ## Overview
-This repository contains the implementation of **Specific Test II: Optical Character Recognition (OCR)**, a task focused on recognizing and extracting text from preprocessed line segment images of scanned documents. The objective is to accurately transcribe the main text content while disregarding embellishments such as borders, noise, or irrelevant markings. This approach leverages **Microsoft's TrOCR (Transformer-based Optical Character Recognition) model**, a state-of-the-art transformer architecture that combines a **Vision Transformer (ViT) encoder** and a **transformer decoder**.
+This repository contains the implementation of **Specific Test II: Optical Character Recognition (OCR)**, a task focused on recognizing and extracting text from preprocessed line segment images of scanned documents. The objective is to accurately transcribe the main text content while disregarding embellishments such as borders, noise, or irrelevant markings. This approach leverages **TrOCR (Transformer-based Optical Character Recognition) model**, a state-of-the-art transformer architecture that combines a **Vision Transformer (ViT) encoder** and a **transformer decoder**.
 
 ## Task Overview
 - **Task**: Develop a model based on convolutional-recurrent, transformer, or self-supervised architectures to optically recognize text from various data sources, focusing on the main text while ignoring embellishments.
