@@ -42,10 +42,16 @@ TrOCR is a transformer-based OCR model that eliminates the need for traditional 
 ## Approach and Strategy
 
 ### Process Overview
+
+#### Data Preprocessing from Task 1:
+- I extracted all the images from pdfs and preprocessed all the images.
+- I used CRAFT algorithm to find and extract line segments from each page.
+- I generated ground truth from test transcriptions by following all the comments given in the notes section as text files.
+
 #### 1. Data Preparation
 - **Input**:
-  - Line segment images which can be obtained using teh CRAFT algorithm.
-  - Ground truth text from a CSV file (e.g., `datas.csv` with columns `image_path` and `text`) which contains the mapping of ground truth and the correspponding line segment image.
+  - Line segment images which can be obtained using the CRAFT algorithm.
+  - Ground truth text from a CSV file (e.g., `dataset.csv` with columns `image_path` and `text`) which contains the mapping of ground truth and the correspponding line segment image.
 - **Preprocessing**:
   - **Resizing**: Images are resized to a uniform size (256x64 pixels) to match TrOCR’s expected input dimensions.
   - **Augmentation**: `albumentations` is used for data augmentation (e.g., random cropping, rotation) to improve model robustness.
@@ -109,7 +115,6 @@ TrOCR is a transformer-based OCR model that eliminates the need for traditional 
 
 ### Average CER/WER
 - Computed across all predictions to provide a summary of model performance.
-
 
 ### Training Performance Table
 
